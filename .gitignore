@@ -1,0 +1,11 @@
+*.swp
+.*.swp
+.idea
+
+node_modules
+package-lock.json
+npm-debug.log
+.nyc_output
+coverage
+
+yarn-error.log

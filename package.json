@@ -1,0 +1,71 @@
+{
+  "name": "redput",
+  "version": "1.0.0",
+  "description": "CLI tool to download 🐊Putout Editor link to files",
+  "main": "lib/redput.js",
+  "type": "module",
+  "scripts": {
+    "lint": "redput lint",
+    "fresh:lint": "redput fresh:lint",
+    "lint:fresh": "redput lint:fresh",
+    "fix:lint": "redput fix:lint",
+    "test": "redput test",
+    "watch:test": "redput watch:test",
+    "watch:tape": "redput watch:tape",
+    "watch:lint": "redput watch:lint",
+    "watcher": "redput watcher",
+    "coverage": "redput coverage",
+    "report": "redput report",
+    "hello": "redput hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/redput.git"
+  },
+  "bin": {
+    "redput": "bin/redput.mjs",
+    "redput-completion": "bin/redput-completion.js"
+  },
+  "keywords": [
+    "redput",
+    "scripts",
+    "tool",
+    "cli",
+    "command",
+    "task",
+    "parallel",
+    "serial",
+    "run",
+    "tool",
+    "commandline",
+    "command",
+    "putout",
+    "putout-editor",
+    "gist"
+  ],
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (http://coderaiser.github.io/)",
+  "bugs": {
+    "url": "https://github.com/coderaiser/redput/issues"
+  },
+  "homepage": "https://github.com/coderaiser/redput",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "octokit": "^3.1.0",
+    "rendy": "^3.1.1"
+  },
+  "devDependencies": {
+    "c8": "^8.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-putout": "^18.0.0",
+    "nodemon": "^2.0.0",
+    "nyc": "^15.0.0",
+    "supertape": "^8.1.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
