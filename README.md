@@ -23,8 +23,8 @@ npm i redput -g
 GITHUB_TOKEN=github-token redput [putout-editor-url]
 ```
 
-`redput` determines where it located and does one of two:
-- when finds `index.js` it creates rule inside nested plugin;
+`redput` determines where it located and does one of next things:
+- if it finds `index.js` - creates rule inside nested plugin;
 - create directory with a plugin name and fiils `lib`, `test` and `fixture`;
 
 ## License
