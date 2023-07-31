@@ -20,8 +20,7 @@ export default {
     'watch:tape': () => 'nodemon -w test -w lib --exec tape',
     'watch:lint': async () => await run('watcher', await run('lint')),
     'watcher': () => 'nodemon -w test -w lib -w bin --exec',
-    'coverage:mock': async () => `escover ${await run('test:only')}`,
-    'coverage': async () => [env, `c8 ${await run('test')}`],
+    'coverage': async () => `escover ${await run('test:only')}`,
     'report': () => 'c8 report --reporter=lcov',
     'postpublish': () => 'npm i -g',
 };

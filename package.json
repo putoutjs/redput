@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "CLI tool to download 🐊Putout Editor link to files",
   "main": "lib/redput.js",
+  "bin": {
+    "redput": "bin/redput.js"
+  },
   "type": "module",
   "scripts": {
     "lint": "madrun lint",
@@ -24,10 +27,6 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/coderaiser/redput.git"
-  },
-  "bin": {
-    "redput": "bin/redput.mjs",
-    "redput-completion": "bin/redput-completion.js"
   },
   "keywords": [
     "redput",
@@ -58,10 +57,13 @@
   "dependencies": {
     "octokit": "^3.1.0",
     "putout": "^30.7.0",
-    "rendy": "^3.1.1"
+    "rendy": "^3.1.1",
+    "try-to-catch": "^3.0.1"
   },
   "devDependencies": {
+    "@putout/test": "^7.0.1",
     "c8": "^8.0.0",
+    "escover": "^3.4.0",
     "eslint": "^8.0.0",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-putout": "^18.0.0",
