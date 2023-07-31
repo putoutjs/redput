@@ -1,14 +1,11 @@
 import {
     run,
     cutEnv,
-} from './lib/madrun.js';
-
-const noop = () => {};
+} from 'madrun';
 
 const NODE_OPTIONS = `'--loader mock-import --no-warnings'`;
 
 const env = {
-    SUPERTAPE_PROGRESS_BAR_MIN: 20,
     NODE_OPTIONS,
 };
 
@@ -17,15 +14,14 @@ export default {
     'fresh:lint': () => run('lint', '--fresh'),
     'lint:fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('lint', '--fix'),
-    'test:only': () => `tape 'test/**/*.js' '{lib,bin}/**/*.spec.{js,mjs}'`,
-    'test': async () => [env, await run('test:only')],
+    'test': () => `tape 'test/**/*.js' '{lib,bin}/**/*.spec.{js,mjs}'`,
+    'test:mock': async () => [env, await run('test:only')],
     'watch:test': async () => await run('watcher', await cutEnv('test')),
     'watch:tape': () => 'nodemon -w test -w lib --exec tape',
     'watch:lint': async () => await run('watcher', await run('lint')),
     'watcher': () => 'nodemon -w test -w lib -w bin --exec',
-    'coverage': async () => `escover ${await run('test:only')}`,
-    'coverage:old': async () => [`c8 ${await run('test:only')}`, env],
+    'coverage:mock': async () => `escover ${await run('test:only')}`,
+    'coverage': async () => [env, `c8 ${await run('test')}`],
     'report': () => 'c8 report --reporter=lcov',
     'postpublish': () => 'npm i -g',
-    'hello': noop,
 };

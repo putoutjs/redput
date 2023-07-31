@@ -5,18 +5,21 @@
   "main": "lib/redput.js",
   "type": "module",
   "scripts": {
-    "lint": "redput lint",
-    "fresh:lint": "redput fresh:lint",
-    "lint:fresh": "redput lint:fresh",
-    "fix:lint": "redput fix:lint",
-    "test": "redput test",
-    "watch:test": "redput watch:test",
-    "watch:tape": "redput watch:tape",
-    "watch:lint": "redput watch:lint",
-    "watcher": "redput watcher",
-    "coverage": "redput coverage",
-    "report": "redput report",
-    "hello": "redput hello"
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "test:only": "madrun test:only",
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "watch:tape": "madrun watch:tape",
+    "watch:lint": "madrun watch:lint",
+    "watcher": "madrun watcher",
+    "coverage": "madrun coverage",
+    "coverage:old": "madrun coverage:old",
+    "report": "madrun report",
+    "postpublish": "madrun postpublish",
+    "hello": "madrun hello"
   },
   "repository": {
     "type": "git",
@@ -54,6 +57,7 @@
   },
   "dependencies": {
     "octokit": "^3.1.0",
+    "putout": "^30.7.0",
     "rendy": "^3.1.1"
   },
   "devDependencies": {
@@ -61,6 +65,8 @@
     "eslint": "^8.0.0",
     "eslint-plugin-n": "^16.0.1",
     "eslint-plugin-putout": "^18.0.0",
+    "madrun": "^9.3.0",
+    "montag": "^1.2.1",
     "nodemon": "^2.0.0",
     "nyc": "^15.0.0",
     "supertape": "^8.1.0"
