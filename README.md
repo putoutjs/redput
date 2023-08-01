@@ -9,7 +9,7 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/redput?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/redput/badge.svg?branch=master&service=github
 
-CLI tool to download source of a `rule` and `fixtures` from 🐊**Putout Editor** and generate tests from it. 
+CLI tool to download source of a `rule` and `fixtures` from 🐊**Putout Editor** and generate tests from it.
 
 ## Install
 
