@@ -1,7 +1,7 @@
 {
   "name": "redput",
   "version": "1.0.0",
-  "description": "CLI tool to download 🐊Putout Editor link to files",
+  "description": "CLI tool to convert source from 🐊Putout Editor to files",
   "main": "lib/redput.js",
   "bin": {
     "redput": "bin/redput.js"
