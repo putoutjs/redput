@@ -6,7 +6,7 @@ const {GITHUB_TOKEN} = process.env;
 const [url] = process.argv.slice(2);
 
 if (!url) {
-    console.error('redput [putout-editor-url]')
+    console.error('redput [putout-editor-url]');
     process.exit(1);
 }
 

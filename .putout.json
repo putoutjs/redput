@@ -3,7 +3,5 @@
     "rules": {
         "putout": "on"
     },
-    "ignore": [
-        "templates"
-    ]
+    "ignore": ["templates"]
 }
