@@ -2,8 +2,8 @@
 
 [NPMURL]: https://npmjs.org/package/redput "npm"
 [NPMIMGURL]: https://img.shields.io/npm/v/redput.svg?style=flat
-[BuildStatusURL]: https://github.com/coderaiser/redput/actions?query=workflow%3A%22Node+CI%22 "Build Status"
-[BuildStatusIMGURL]: https://github.com/coderaiser/redput/workflows/Node%20CI/badge.svg
+[BuildStatusURL]: https://github.com/putoutjs/redput/actions/workflows/nodejs.yml "Build Status"
+[BuildStatusIMGURL]: https://github.com/putoutjs/redput/actions/workflows/nodejs.yml/badge.svg
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
 [CoverageURL]: https://coveralls.io/github/coderaiser/redput?branch=master
