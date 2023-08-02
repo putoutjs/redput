@@ -55,6 +55,7 @@
     "node": ">=16"
   },
   "dependencies": {
+    "node-fetch": "^3.3.2",
     "octokit": "^3.1.0",
     "putout": "^30.7.0",
     "rendy": "^3.1.1",
