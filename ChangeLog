@@ -1,3 +1,10 @@
+2023.08.14, v1.0.3
+
+feature:
+- 740a589 package: eslint-plugin-putout v19.0.4
+- b90e087 package: nodemon v3.0.1
+- 335ca97 package: putout v31.1.0
+
 2023.08.02, v1.0.2
 
 fix:
