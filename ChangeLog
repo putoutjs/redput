@@ -1,3 +1,8 @@
+2023.08.14, v1.2.0
+
+feature:
+- aaebe09 redput: add support of simple plugins (when 'package.json' in current directory)
+
 2023.08.14, v1.1.0
 
 feature:
