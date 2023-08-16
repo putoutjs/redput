@@ -3,7 +3,7 @@ import {run} from 'madrun';
 const NODE_OPTIONS = `'--loader escover --no-warnings'`;
 
 const env = {
-    ESCOVER_FORMAT: 'lines',
+    ESCOVER_FORMAT: 'files',
     NODE_OPTIONS,
 };
 
@@ -18,8 +18,8 @@ export default {
     'watch:tape': () => 'nodemon -w test -w lib --exec tape',
     'watch:lint': async () => await run('watcher', await run('lint')),
     'watcher': () => 'nodemon -w test -w lib -w bin --exec',
-    'coverage:c8': async () => `c8 ${await run('test')}`,
-    'coverage': async () => [env, `escover ${await run('test')}`],
+    'coverage': async () => `c8 ${await run('test')}`,
+    'coverage:es': async () => [env, `escover ${await run('test')}`],
     'report': () => 'c8 report --reporter=lcov',
     'postpublish': () => 'npm i -g',
 };
