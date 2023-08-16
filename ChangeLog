@@ -1,3 +1,10 @@
+2023.08.16, v1.4.0
+
+feature:
+- 6812e73 redput: prepare rule before write
+- 49939c1 write: nested: convert to commonjs
+- 52145ff write: nested: optional
+
 2023.08.16, v1.3.0
 
 feature:
