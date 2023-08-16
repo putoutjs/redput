@@ -1,3 +1,11 @@
+2023.08.16, v1.3.0
+
+feature:
+- 90f4471 redput: nested: update overall test
+- a78d8d4 redput: move add-rule
+- 095ccdf redput: nested: update index.js
+- 08146ac redput: plugin-insert-get-rule: simplify
+
 2023.08.14, v1.2.1
 
 fix:
