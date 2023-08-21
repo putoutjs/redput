@@ -21,5 +21,5 @@ export default {
     'coverage': async () => `c8 ${await run('test')}`,
     'coverage:es': async () => [env, `escover ${await run('test')}`],
     'report': () => 'c8 report --reporter=lcov',
-    'postpublish': () => 'npm i -g',
+    'wisdom': () => run(['lint', 'coverage']),
 };
