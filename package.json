@@ -6,6 +6,9 @@
   "bin": {
     "redput": "bin/redput.js"
   },
+  "exports": {
+    "./plugin/get-report": "./lib/get-report/plugin-get-report/index.js"
+  },
   "type": "module",
   "scripts": {
     "lint": "madrun lint",
