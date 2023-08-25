@@ -1,7 +1,7 @@
 {
     "extends": [
         "plugin:n/recommended",
-        "plugin:putout/safe+align"
+        "plugin:putout/esm"
     ],
     "plugins": [
         "putout",
