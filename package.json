@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@putout/plugin-convert-esm-to-commonjs": "^6.0.0",
+    "@putout/plugin-declare": "^2.0.1",
     "@putout/plugin-putout": "^14.8.0",
     "@putout/plugin-remove-unused-variables": "^6.0.2",
     "node-fetch": "^3.3.2",
