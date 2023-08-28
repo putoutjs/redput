@@ -58,6 +58,7 @@
   },
   "dependencies": {
     "@putout/plugin-putout": "^14.8.0",
+    "@putout/plugin-remove-unused-variables": "^6.0.2",
     "node-fetch": "^3.3.2",
     "octokit": "^3.1.0",
     "putout": "^31.1.0",
