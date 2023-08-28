@@ -1,3 +1,12 @@
+2023.08.28, v1.8.0
+
+feature:
+- 00f012e redput: plugins: prepare to ESM: direct import instead of async
+- 9d29ea2 package: @putout/plugin-declare v2.0.1
+- 84f823b package: @putout/plugin-convert-esm-to-commonjs v6.0.0
+- fcf48ac package: @putout/plugin-remove-unused-variables v6.0.2
+- d584a26 package: @putout/plugin-putout v14.8.0
+
 2023.08.23, v1.7.0
 
 feature:
