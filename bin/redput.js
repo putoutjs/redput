@@ -10,6 +10,12 @@ if (!url) {
     process.exit(1);
 }
 
+if (url === '-v' || url === '--version') {
+    const {version} = await import('../lib/version.js');
+    console.log(await version());
+    process.exit();
+}
+
 const [error, result] = await redput(url, {
     token: GITHUB_TOKEN,
 });
