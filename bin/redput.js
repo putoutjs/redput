@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import process from 'node:process';
 import {redput} from '../lib/redput.js';
 
 const {GITHUB_TOKEN} = process.env;

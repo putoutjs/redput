@@ -1,3 +1,8 @@
+2023.08.30, v1.9.0
+
+feature:
+- 2ea4171 redput: add -v, --version
+
 2023.08.28, v1.8.0
 
 feature:
