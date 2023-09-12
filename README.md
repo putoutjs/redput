@@ -26,7 +26,7 @@ GITHUB_TOKEN=github-token redput [putout-editor-url]
 `redput` determines where it located and does one of next things:
 
 - if it finds `index.js` - creates rule inside nested plugin;
-- create directory with a plugin name and fiils `lib`, `test` and `fixture`;
+- creates directory with a plugin name and fills directories `lib`, `test` and `fixture`;
 
 ## License
 
