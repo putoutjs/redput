@@ -6,8 +6,8 @@
 [BuildStatusIMGURL]: https://github.com/putoutjs/redput/actions/workflows/nodejs.yml/badge.svg
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[CoverageURL]: https://coveralls.io/github/coderaiser/redput?branch=master
-[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/redput/badge.svg?branch=master&service=github
+[CoverageURL]: https://coveralls.io/github/putoutjs/redput?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/putoutjs/redput/badge.svg?branch=master&service=github
 
 CLI tool to download source of a `rule` and `fixtures` from 🐊[**Putout Editor**](https://putout.cloudcmd.io/#/gist/33a75dce299788583a567e02f29828c8/7a97049f1c88ef9e3396d43b6a64246da0093670) and generate tests from it.
 
