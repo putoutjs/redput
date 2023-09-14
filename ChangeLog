@@ -1,3 +1,9 @@
+2023.09.14, v1.10.1
+
+feature:
+- e3ccdee package: putout v32.0.1
+- b70891d package: @putout/plugin-remove-unused-variables v7.0.0
+
 2023.09.05, v1.10.0
 
 fix:
