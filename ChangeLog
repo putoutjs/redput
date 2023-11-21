@@ -1,3 +1,10 @@
+2023.11.21, v1.13.0
+
+feature:
+- 8ecf9d3 redput: @putout/plugin-putout v16.7.0
+- afce39c redput: putout v33.9.1
+- 3a70560 redput: get-report: improve support of template literals
+
 2023.11.02, v1.12.0
 
 feature:
