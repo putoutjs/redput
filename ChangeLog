@@ -1,3 +1,8 @@
+2023.11.28, v1.15.0
+
+feature:
+- ec9c667 redput: add ability to disable rules in index
+
 2023.11.28, v1.14.0
 
 feature:
