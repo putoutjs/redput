@@ -1,3 +1,8 @@
+2023.11.28, v1.15.1
+
+feature:
+- e692952 redput: @putout/plugin-putout v17.0.0
+
 2023.11.28, v1.15.0
 
 feature:
