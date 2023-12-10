@@ -54,7 +54,7 @@
   "homepage": "https://github.com/putoutjs/redput",
   "license": "MIT",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   },
   "dependencies": {
     "@putout/plugin-convert-esm-to-commonjs": "^6.0.0",
