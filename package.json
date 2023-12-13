@@ -60,7 +60,7 @@
     "@putout/plugin-convert-esm-to-commonjs": "^6.0.0",
     "@putout/plugin-declare": "^2.0.1",
     "@putout/plugin-putout": "^17.0.0",
-    "@putout/plugin-remove-unused-variables": "^7.0.0",
+    "@putout/plugin-remove-unused-variables": "^8.0.0",
     "node-fetch": "^3.3.2",
     "octokit": "^3.1.0",
     "putout": "^34.0.0",
