@@ -28,6 +28,22 @@ GITHUB_TOKEN=github-token redput [putout-editor-url]
 - if it finds `index.js` - creates rule inside nested plugin;
 - creates directory with a plugin name and fills directories `lib`, `test` and `fixture`;
 
+example of input:
+
+```js
+// ["off", "write-all-files"]
+export const report = () => `Write all files`;
+
+export const fix = (file) => {
+    const content = readFileContent(file);
+    writeFileContent(file, content);
+};
+
+export const scan = (root, {push}) => {
+    findFile(root, ['*']).map(push);
+};
+```
+
 ## License
 
 MIT

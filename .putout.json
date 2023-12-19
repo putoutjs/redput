@@ -1,7 +1,14 @@
 {
     "printer": "putout",
     "rules": {
-        "putout": "on"
+        "putout": "off"
     },
-    "ignore": ["templates"]
+    "match": {
+        "*.md": {
+            "putout/declare": "off"
+        }
+    },
+    "ignore": [
+        "templates"
+    ]
 }

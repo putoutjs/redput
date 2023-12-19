@@ -23,7 +23,7 @@ npm i @putout/plugin-apply-strings-tuple
 
 ## ❌ Example of incorrect code
 
-```js
+```
 [off, remove-useless];
 ['off', remove-useless];
 ['off', 'remove-useless'];
@@ -31,7 +31,7 @@ npm i @putout/plugin-apply-strings-tuple
 
 ## ✅ Example of correct code
 
-```js
+```
 ['off', 'remove-useless'];
 ['off', 'remove-useless'];
 ['off', 'remove-useless'];
