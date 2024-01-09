@@ -1,3 +1,12 @@
+2024.01.09, v2.2.0
+
+fix:
+- 1453d1e redput: nested: writeNestedTests: nestedPluginName
+
+feature:
+- d4343b5 redput: c8 v9.0.0
+- 3da8937 redput: add-rule: add support of ESM
+
 2023.12.19, v2.1.0
 
 feature:
