@@ -70,7 +70,7 @@
     "try-to-catch": "^3.0.1"
   },
   "devDependencies": {
-    "@putout/test": "^8.0.0",
+    "@putout/test": "^9.0.1",
     "c8": "^9.0.0",
     "escover": "^4.0.1",
     "eslint": "^8.0.0",
