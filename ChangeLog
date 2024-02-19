@@ -1,3 +1,11 @@
+2024.02.19, v2.2.2
+
+feature:
+- 99e0eb8 redput: @putout/plugin-nodejs v11.0.0
+- 4c1db17 redput: @putout/test v9.0.1
+- 55f6303 redput: supertape v10.1.0
+- 1ccb7e7 redput: @putout/plugin-declare v3.0.0
+
 2024.01.19, v2.2.1
 
 feature:
