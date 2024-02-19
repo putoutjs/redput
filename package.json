@@ -59,7 +59,7 @@
   "dependencies": {
     "@putout/plugin-convert-esm-to-commonjs": "^6.0.0",
     "@putout/plugin-declare": "^3.0.0",
-    "@putout/plugin-nodejs": "^10.3.0",
+    "@putout/plugin-nodejs": "^11.0.0",
     "@putout/plugin-putout": "^18.0.0",
     "@putout/plugin-remove-unused-variables": "^8.0.0",
     "node-fetch": "^3.3.2",
