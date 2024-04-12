@@ -75,7 +75,7 @@
     "c8": "^9.0.0",
     "escover": "^4.0.1",
     "eslint": "^8.0.0",
-    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-n": "^17.2.0",
     "eslint-plugin-putout": "^22.1.0",
     "madrun": "^10.0.0",
     "montag": "^1.2.1",
