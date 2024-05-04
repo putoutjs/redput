@@ -47,7 +47,7 @@ export const scan = (root, {push}) => {
 When you get your rule downloaded, use:
 
 ```sh
-UPDATE npm fix:lint test
+UPDATE=1 npm fix:lint test
 ```
 
 to finish preparations of new rule and tests.
