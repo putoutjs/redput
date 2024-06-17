@@ -1,3 +1,16 @@
+2024.06.17, v2.4.0
+
+feature:
+- ed520d8 redput: @putout/test v10.0.0
+- 6cee98a redput: octokit v4.0.2
+- 5c40fa7 redput: @putout/plugin-putout v20.6.0
+- 898a079 redput: @putout/plugin-declare-before-reference v4.0.0
+- 11c1416 redput: @putout/plugin-declare v4.0.0
+- 2190619 redput: c8 v10.1.2
+- efef6c5 redput: get-report: add support of body
+- a89fa1e redput: migrate to ESLint v9
+- 5eb3692 redput: redlint v3.14.1
+
 2024.04.12, v2.3.0
 
 feature:
