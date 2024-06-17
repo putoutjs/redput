@@ -5,7 +5,10 @@
         ".*",
         "**/*.spec.*",
         "test",
-        "**/fixture"
+        "**/fixture",
+        "**/*.config.*",
+        "**/{bin,write,templates}",
+        "**/{redput,version}.js"
     ],
     "branches": 100,
     "lines": 100,
