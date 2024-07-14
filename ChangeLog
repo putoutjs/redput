@@ -1,3 +1,8 @@
+2024.07.14, v2.5.0
+
+feature:
+- 33feb59 redput: parseComment: ^[a-z-]$: avoid any parsing use as is
+
 2024.06.17, v2.4.1
 
 feature:
