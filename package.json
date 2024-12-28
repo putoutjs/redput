@@ -28,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/putoutjs/redput.git"
+    "url": "git+https://github.com/putoutjs/redput.git"
   },
   "keywords": [
     "redput",
