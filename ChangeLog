@@ -1,3 +1,13 @@
+2024.12.28, v2.6.0
+
+feature:
+- 6732fc0 redput: putout v37.7.2
+- cec2d7c redput: @putout/plugin-remove-unused-variables v10.1.0
+- d56c841 redput: @putout/plugin-putout v22.0.0
+- 283c164 redput: @putout/plugin-nodejs v13.1.1
+- 55cf1d2 redput: @putout/plugin-declare-before-reference v5.1.0
+- b46a6d1 redput: eslint-plugin-putout v23.3.0
+
 2024.07.19, v2.5.1
 
 feature:
