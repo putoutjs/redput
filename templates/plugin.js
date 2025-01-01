@@ -2,7 +2,6 @@ const {createTest} = require('@putout/test');
 const plugin = require('{{ importPath }}');
 
 const test = createTest(__dirname, {
-    printer: 'putout',
     plugins: [
         ['{{ name }}', plugin],
     ],
