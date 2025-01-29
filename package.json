@@ -40,9 +40,7 @@
     "parallel",
     "serial",
     "run",
-    "tool",
     "commandline",
-    "command",
     "putout",
     "putout-editor",
     "gist"
