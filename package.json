@@ -62,7 +62,7 @@
     "@putout/plugin-declare-before-reference": "^5.1.0",
     "@putout/plugin-nodejs": "^13.1.1",
     "@putout/plugin-putout": "^22.0.0",
-    "@putout/plugin-remove-unused-variables": "^10.1.0",
+    "@putout/plugin-remove-unused-variables": "^11.0.0",
     "node-fetch": "^3.3.2",
     "octokit": "^4.0.2",
     "putout": "^38.0.0",
