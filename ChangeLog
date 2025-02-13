@@ -1,3 +1,11 @@
+2025.02.13, v2.8.0
+
+feature:
+- f10ab2f redput: link instead of name
+- 6c5af63 redput: @putout/plugin-remove-unused-variables v12.0.0
+- 2b2a84b redput: @putout/plugin-putout v23.4.1
+- a0f4608 redput: @putout/plugin-nodejs v14.0.1
+
 2025.01.29, v2.7.1
 
 feature:
