@@ -1,3 +1,11 @@
+2025.03.15, v2.9.0
+
+feature:
+- 582bd8c redput: @putout/test v12.1.0
+- c01a6ce redput: @putout/plugin-declare-before-reference v6.2.0
+- 6f873ff redput: eslint-plugin-putout v25.2.0
+- 95c939b redput: @putout/plugin-declare v5.0.0
+
 2025.02.13, v2.8.0
 
 feature:
