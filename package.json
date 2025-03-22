@@ -55,7 +55,6 @@
     "node": ">=20"
   },
   "dependencies": {
-    "@putout/plugin-convert-esm-to-commonjs": "^6.0.0",
     "@putout/plugin-declare": "^5.0.0",
     "@putout/plugin-declare-before-reference": "^6.2.0",
     "@putout/plugin-nodejs": "^14.0.1",
