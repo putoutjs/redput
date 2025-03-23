@@ -1,3 +1,9 @@
+2025.03.23, v3.1.0
+
+feature:
+- 803ea39 redput: @putout/plugin-nodejs v15.0.0
+- f913157 redput: add-rule: esm
+
 2025.03.22, v3.0.1
 
 fix:
