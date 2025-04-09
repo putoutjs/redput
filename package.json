@@ -77,7 +77,7 @@
     "montag": "^1.2.1",
     "nodemon": "^3.0.1",
     "redlint": "^4.0.0",
-    "supertape": "^10.1.0"
+    "supertape": "^11.1.0"
   },
   "publishConfig": {
     "access": "public"
