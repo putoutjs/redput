@@ -1,3 +1,12 @@
+2025.04.09, v3.2.0
+
+feature:
+- c72e004 redput: @putout/plugin-esm v4.0.0
+- c9d2274 redput: supertape v11.1.0
+- fedbcd9 redput: putout v40.0.1
+- 17990f1 redput: @putout/test v13.0.1
+- e99321c redput: @putout/plugin-putout v25.0.0
+
 2025.03.23, v3.1.0
 
 feature:
