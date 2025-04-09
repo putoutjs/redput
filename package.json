@@ -62,7 +62,7 @@
     "@putout/plugin-remove-unused-variables": "^12.0.0",
     "node-fetch": "^3.3.2",
     "octokit": "^4.0.2",
-    "putout": "^39.0.9",
+    "putout": "^40.0.1",
     "rendy": "^4.1.3",
     "try-catch": "^3.0.1",
     "try-to-catch": "^3.0.1"
