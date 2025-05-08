@@ -1,7 +1,7 @@
-const {createTest} = require('@putout/test');
-const plugin = require('{{ importPath }}');
+import {createTest} from '@putout/test';
+import * as plugin from '{{ importPath }}';
 
-const test = createTest(__dirname, {
+const test = createTest(import.meta.url, {
     plugins: [
         ['{{ name }}', plugin],
     ],
