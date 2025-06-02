@@ -1,3 +1,11 @@
+2025.06.02, v3.5.0
+
+feature:
+- 81ec471 apply-namespace
+- 7b40985 redput: octokit v5.0.3
+- f5f6955 redput: @putout/plugin-remove-unused-variables v14.0.0
+- 03cfc29 redput: eslint-plugin-putout v27.1.0
+
 2025.05.19, v3.4.0
 
 feature:
