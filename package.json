@@ -60,7 +60,7 @@
     "@putout/plugin-esm": "^4.0.0",
     "@putout/plugin-nodejs": "^16.1.0",
     "@putout/plugin-putout": "^25.0.0",
-    "@putout/plugin-remove-unused-variables": "^12.0.0",
+    "@putout/plugin-remove-unused-variables": "^14.0.0",
     "node-fetch": "^3.3.2",
     "octokit": "^4.0.2",
     "putout": "^40.0.1",
