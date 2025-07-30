@@ -1,3 +1,8 @@
+2025.07.30, v3.5.2
+
+feature:
+- 3acb36d redput: @putout/plugin-esm v5.0.0
+
 2025.07.09, v3.5.1
 
 feature:
