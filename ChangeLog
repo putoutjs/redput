@@ -1,3 +1,9 @@
+2025.09.10, v3.5.3
+
+feature:
+- 81fdbfd redput: @putout/plugin-putout v27.4.0
+- 76f98f3 redput: @putout/test v14.0.0
+
 2025.07.30, v3.5.2
 
 feature:
