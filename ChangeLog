@@ -1,3 +1,10 @@
+2025.12.27, v3.6.1
+
+feature:
+- cbbb70b redput: @putout/plugin-putout v28.2.0
+- 29e1f26 redput: @putout/plugin-nodejs v18.1.0
+- 70053df redput: @putout/plugin-declare-before-reference v9.0.0
+
 2025.12.05, v3.6.0
 
 feature:
