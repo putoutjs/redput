@@ -52,7 +52,7 @@
   "homepage": "https://github.com/putoutjs/redput",
   "license": "MIT",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "dependencies": {
     "@putout/plugin-declare": "^6.0.0",
