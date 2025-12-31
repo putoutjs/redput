@@ -1,3 +1,8 @@
+2025.12.31, v4.0.0
+
+feature:
+- 05c003e redput: drop support of node < 22
+
 2025.12.31, v3.6.2
 
 feature:
