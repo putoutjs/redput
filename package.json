@@ -55,7 +55,7 @@
     "node": ">=22"
   },
   "dependencies": {
-    "@putout/plugin-declare": "^6.0.0",
+    "@putout/plugin-declare": "^7.1.0",
     "@putout/plugin-declare-before-reference": "^9.0.0",
     "@putout/plugin-esm": "^6.0.0",
     "@putout/plugin-nodejs": "^18.1.0",
