@@ -57,7 +57,7 @@
   "dependencies": {
     "@putout/plugin-declare": "^7.1.0",
     "@putout/plugin-declare-before-reference": "^9.0.0",
-    "@putout/plugin-esm": "^6.0.0",
+    "@putout/plugin-esm": "^8.0.0",
     "@putout/plugin-nodejs": "^18.1.0",
     "@putout/plugin-putout": "^28.2.0",
     "@putout/plugin-variables": "^1.3.1",
