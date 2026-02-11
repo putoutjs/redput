@@ -1,3 +1,11 @@
+2026.02.11, v4.1.0
+
+feature:
+- ed3b186 redput: write: nested: get-report: escape
+- 6bf87a9 redput: add-index-to-import: add from @putout/esm (https://github.com/coderaiser/putout/commit/41ea5055e45d0276d37112399e4d010dc278b134)
+- 039b2ce redput: eslint v10.0.0
+- bbaba55 redput: @putout/plugin-esm v9.7.0
+
 2026.01.26, v4.0.2
 
 feature:
