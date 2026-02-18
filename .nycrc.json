@@ -2,13 +2,13 @@
     "check-coverage": false,
     "all": true,
     "exclude": [
-        ".*",
         "**/*.spec.*",
-        "test",
-        "**/fixture",
         "**/*.config.*",
+        "**/{redput,version}.js",
+        "**/fixture",
         "**/{bin,write,templates}",
-        "**/{redput,version}.js"
+        ".*",
+        "test"
     ],
     "branches": 100,
     "lines": 100,
