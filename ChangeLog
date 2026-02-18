@@ -1,3 +1,14 @@
+2026.02.18, v4.1.2
+
+feature:
+- 827d0f9 redput: rendy v5.0.0
+- b8eec12 redput: redlint v6.0.0
+- 310b1e6 redput: putout v42.0.5
+- 37eb7ad redput: madrun v13.0.0
+- 129e1e4 redput: eslint-plugin-putout v31.0.0
+- 5c1aae2 redput: @putout/plugin-putout v29.0.0
+- 2f7e325 redput: @putout/plugin-esm v10.0.0
+
 2026.02.11, v4.1.1
 
 fix:
