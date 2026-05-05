@@ -1,3 +1,8 @@
+2026.05.05, v4.3.0
+
+feature:
+- 4994885 redput: parse-plugin: trailing spaces
+
 2026.04.21, v4.2.2
 
 feature:
