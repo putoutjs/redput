@@ -1,3 +1,9 @@
+2026.05.10, v4.4.0
+
+feature:
+- 102a7c3 redput: write: nested: search for the same name of js as plugin name first
+- 0e81a86 redput: supertape v13.0.0
+
 2026.05.05, v4.3.0
 
 feature:
