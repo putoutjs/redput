@@ -1,3 +1,12 @@
+2026.08.29, v4.6.0
+
+fix:
+- fb923e2 write-readme: code blocks
+- fa39c1f redput: write: write-readme: insert-rule-section: multiline fixtures
+
+feature:
+- bb59d23 insert-rule-section: add
+
 2026.06.26, v4.5.0
 
 feature:
