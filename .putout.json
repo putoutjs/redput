@@ -1,7 +1,7 @@
 {
-    "printer": "putout",
     "rules": {
-        "putout": "on"
+        "putout": "on",
+        "madrun/insert-test-dts": "on"
     },
     "match": {
         "*.md": {

@@ -4,6 +4,7 @@
     "exclude": [
         "**/*.spec.*",
         "**/*.config.*",
+        "**/*.d.ts",
         "**/{redput,version}.js",
         "**/fixture",
         "**/{bin,write,templates}",

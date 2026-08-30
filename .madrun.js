@@ -10,11 +10,12 @@ export default {
     'lint:fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('lint', '--fix'),
     'test': () => [env, `tape 'test/**/*.js' '{lib,bin}/**/*.spec.{js,mjs}'`],
+    'test:dts': () => 'check-dts test/*.ts',
     'watch:test': async () => [env, await run('watcher', `"${await cutEnv('test')}"`)],
     'watch:tape': () => 'nodemon -w test -w lib --exec tape',
     'watch:lint': async () => await run('watcher', await run('lint')),
     'watcher': () => 'nodemon -w test -w lib -w bin --exec',
     'coverage': async () => [env, `c8 ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
-    'wisdom': () => run(['lint', 'coverage']),
+    'wisdom': () => run(['lint', 'coverage', 'test:dts']),
 };
