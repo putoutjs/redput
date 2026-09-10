@@ -1,3 +1,11 @@
+2026.09.10, v4.8.1
+
+fix:
+- 348ff88 types
+
+feature:
+- 4ec5a27 redput: compileRule: types
+
 2026.08.30, v4.8.0
 
 feature:
