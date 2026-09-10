@@ -8,7 +8,10 @@
   },
   "exports": {
     "./plugin/get-report": "./lib/get-report/plugin-get-report/index.js",
-    "./compile-rule": "./lib/compile-rule/compile-rule.js"
+    "./compile-rule": {
+      "types": "./lib/compile-rule/compile-rule.d.ts",
+      "default": "./lib/compile-rule/compile-rule.js"
+    }
   },
   "type": "module",
   "scripts": {
