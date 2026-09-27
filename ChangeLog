@@ -1,3 +1,8 @@
+2026.09.27, v4.9.3
+
+feature:
+- 5c15b62 redput: write-readme: insert-rule-link: ";"
+
 2026.09.27, v4.9.2
 
 fix:
