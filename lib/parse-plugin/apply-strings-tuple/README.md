@@ -15,7 +15,7 @@ npm i @putout/plugin-apply-strings-tuple
 
 ```json
 {
-    "rules": {
+    "heading": {
         "apply-strings-tuple": "on"
     }
 }
