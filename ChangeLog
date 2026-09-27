@@ -1,3 +1,8 @@
+2026.09.27, v4.9.4
+
+feature:
+- 077e4b4 redput: write: nested: write-readme: insert-rule-link: filesystem: exclude
+
 2026.09.27, v4.9.3
 
 feature:
