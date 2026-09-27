@@ -1,3 +1,8 @@
+2026.09.27, v4.9.2
+
+fix:
+- 37d33c9 redput: write: nested: write-readme: insert-rule-section: escape
+
 2026.09.27, v4.9.1
 
 fix:
